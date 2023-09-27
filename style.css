@@ -25,6 +25,7 @@
 
 body {
   background-image: var(--bg-url);
+  height: 100vh;
 }
 
 body * {
@@ -164,4 +165,14 @@ footer {
 footer a {
   color: var(--text-color);
   font-size: 14px;
+}
+
+@media (min-width: 700px){
+  :root{
+    --bg-url: url(./assets/assets/bg-mobile.jpg):
+  }
+
+  .light{
+    --bg-url: url(./assets/assets/bg-mobile-light.jpg)
+  }
 }
